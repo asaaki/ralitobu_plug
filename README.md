@@ -2,7 +2,12 @@
 
 A [Plug](https://github.com/elixir-lang/plug) for [Ralitobu](https://github.com/asaaki/ralitobu)
 
-**WIP**
+## Usage
+
+```elixir
+# bucketize on remote IP, allow 10 req/s
+plug Ralitobu.Plug, on_ip: true, limit: 10, lifetime: 1_000
+```
 
 ## Example
 
