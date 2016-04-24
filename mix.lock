@@ -1,0 +1,9 @@
+%{"bunt": {:hex, :bunt, "0.1.5"},
+  "cmark": {:hex, :cmark, "0.6.10"},
+  "cowboy": {:hex, :cowboy, "1.0.4"},
+  "cowlib": {:hex, :cowlib, "1.0.2"},
+  "credo": {:hex, :credo, "0.3.13"},
+  "ex_doc": {:hex, :ex_doc, "0.11.4"},
+  "plug": {:hex, :plug, "1.1.4"},
+  "ralitobu": {:hex, :ralitobu, "0.1.0"},
+  "ranch": {:hex, :ranch, "1.2.1"}}
