@@ -60,6 +60,7 @@ defmodule Ralitobu.Plug do
   defp in_secs(msecs),
     do: round(msecs / 1_000)
 
+  alias Ralitobu.Plug.Mixfile
   @version Mixfile.project[:version]
   @doc "Returns the current version of `Ralitobu.Plug`"
   def version, do: @version
