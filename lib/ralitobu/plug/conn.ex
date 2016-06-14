@@ -43,9 +43,7 @@ defmodule Ralitobu.Plug.Conn do
   end
 
   defp error_json(reset_timer) do
-    """
     ~s({"status": 429, "error": "Too Many Requests", "retry_after": #{reset_timer}})
-    """
   end
   # --- not sure about the wording ---
   # defp error_json(reset_timer) do
